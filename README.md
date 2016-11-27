@@ -65,6 +65,12 @@ In addition and by necessity, the simple demo uses [HTML5](https://en.wikipedia.
 
 ## How to deploy!
 
+Normally you would not configure your own deployment server(s). E.g. You might instead use [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), or you might have other people in your organization who manage the server infrastructure.
+
+But, it is useful to configure your own server _at least once in your life_ so that:
+1. you understand what sort of tasks it entails (i.e. you gain mechanical sympathy), and
+2. you learn to appreciate the times when you don't have to handle your own server configuration and management!
+
 **Launch an Ubuntu EC2 instance**:
 
 We will configure everything from scratch. You'll probably want to launch a small-ish instance first while you are just toying around. You can always make it larger (i.e. change the "instance type") later. So, launch an Ubuntu-based image and `ssh` into it.
